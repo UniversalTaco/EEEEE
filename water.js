@@ -407,4 +407,3 @@ function draw() {
         bushes.forEach(b => b.visible = false);
     }
 }
-}
