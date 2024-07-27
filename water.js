@@ -307,6 +307,11 @@ function draw() {
             playBtn.visible = false;
             helpBtn.visible = false;
         }
+
+        if(helpBtn.mouse.pressed()) {
+            alert("Alone and afraid, you must find a way to survive the monsters composed of certain elements by being resourceful with your surroundings. Each element has a counter to itself.")
+            alert("Fire - water, Wind - rock, Water - plant")
+        
     } else if (menuState === 'gaming') {
         camera.on();
         camera.zoom = 0.75;
