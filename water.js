@@ -117,7 +117,7 @@ function windCreate() {
 
 // Defining Variables
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    new Canvas();
     rocks = [];
     waterbodies = [];
     bushes = [];
@@ -405,4 +405,5 @@ function draw() {
         waterbodies.forEach(w => w.visible = false);
         bushes.forEach(b => b.visible = false);
     }
+}
 }
